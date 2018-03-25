@@ -31,8 +31,35 @@ require_once("config.php");
 /*
  * Carrega um usuario passando o login e a senha
  */
-$usuario = new Usuario();
-$usuario->login("Renan", "1234");
-echo $usuario;
+// $usuario = new Usuario();
+// $usuario->login("Renan", "1234");
+// echo $usuario;
+
+/*
+ * Insert de um novo usuario
+ */
+
+// $aluno = new Usuario("aluno", "@lun0");
+// $aluno->insert();
+
+// echo $aluno;
+
+/*
+ * Update de usuario
+ */
+// $usuario = new Usuario();
+// $usuario->loadById(6);
+// $usuario->update("professor", "!@#$%");
+
+// echo $usuario;
+
+/*
+ * Deletar um usuario
+ */
+// $usuario = new Usuario();
+// $usuario->loadById(6);
+// $usuario->delete();
+
+// echo $usuario;
 
  ?>
